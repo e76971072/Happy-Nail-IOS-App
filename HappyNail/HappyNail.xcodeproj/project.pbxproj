@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA51BDF921E9C0BB002CD8E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA51BDF821E9C0BB002CD8E1 /* GoogleService-Info.plist */; };
+		AA51BDFB21E9C0CA002CD8E1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AA51BDFA21E9C0CA002CD8E1 /* Podfile */; };
+		AA8F6F7821E856FB00BF799C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F6F7721E856FB00BF799C /* AppDelegate.swift */; };
+		AA8F6F7A21E856FB00BF799C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F6F7921E856FB00BF799C /* ViewController.swift */; };
+		AA8F6F7D21E856FB00BF799C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F7B21E856FB00BF799C /* Main.storyboard */; };
+		AA8F6F7F21E856FD00BF799C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F7E21E856FD00BF799C /* Assets.xcassets */; };
+		AA8F6F8221E856FD00BF799C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F8021E856FD00BF799C /* LaunchScreen.storyboard */; };
+		AA8F6F8A21E858D200BF799C /* Nail2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F8921E858D200BF799C /* Nail2.jpg */; };
+		AA8F6F8D21E859B800BF799C /* Nail2-Launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F8C21E859B800BF799C /* Nail2-Launch.jpg */; };
+		AA8F6F8F21E85A9800BF799C /* Location.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F8E21E85A9800BF799C /* Location.jpg */; };
+		AA8F6F9121E85AFC00BF799C /* Location2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F9021E85AFC00BF799C /* Location2.jpg */; };
+		AA8F6F9321E85B4F00BF799C /* Location3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F9221E85B4F00BF799C /* Location3.jpeg */; };
+		AA8F6F9521E860A000BF799C /* NailBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6F9421E860A000BF799C /* NailBackground.jpg */; };
+		AACEA45E21EA906500F74EFC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AACEA45D21EA906500F74EFC /* data.json */; };
+		AADD954821E9606300F2FD43 /* Gellie-Beans-Nails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AADD954721E9606300F2FD43 /* Gellie-Beans-Nails.jpg */; };
+		F574D324779E70A9A57B1A06 /* libPods-HappyNail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA3CAEB2639773FD50CB46A /* libPods-HappyNail.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AA6AC110360D959E16D088B /* Pods-HappyNail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyNail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyNail/Pods-HappyNail.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA3CAEB2639773FD50CB46A /* libPods-HappyNail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyNail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F582EDED45FE375995BB6A /* Pods-HappyNail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyNail.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyNail/Pods-HappyNail.release.xcconfig"; sourceTree = "<group>"; };
+		AA51BDF821E9C0BB002CD8E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA51BDFA21E9C0CA002CD8E1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA8F6F7421E856FB00BF799C /* HappyNail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyNail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8F6F7721E856FB00BF799C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8F6F7921E856FB00BF799C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8F6F7C21E856FB00BF799C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8F6F7E21E856FD00BF799C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8F6F8121E856FD00BF799C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8F6F8321E856FD00BF799C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8F6F8921E858D200BF799C /* Nail2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nail2.jpg; sourceTree = "<group>"; };
+		AA8F6F8C21E859B800BF799C /* Nail2-Launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Nail2-Launch.jpg"; path = "HappyNail/Nail2-Launch.jpg"; sourceTree = SOURCE_ROOT; };
+		AA8F6F8E21E85A9800BF799C /* Location.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Location.jpg; path = HappyNail/Location.jpg; sourceTree = SOURCE_ROOT; };
+		AA8F6F9021E85AFC00BF799C /* Location2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Location2.jpg; path = HappyNail/Location2.jpg; sourceTree = SOURCE_ROOT; };
+		AA8F6F9221E85B4F00BF799C /* Location3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Location3.jpeg; path = HappyNail/Location3.jpeg; sourceTree = SOURCE_ROOT; };
+		AA8F6F9421E860A000BF799C /* NailBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NailBackground.jpg; sourceTree = "<group>"; };
+		AACEA45D21EA906500F74EFC /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AADD954721E9606300F2FD43 /* Gellie-Beans-Nails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Gellie-Beans-Nails.jpg"; path = "HappyNail/Gellie-Beans-Nails.jpg"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8F6F7121E856FB00BF799C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574D324779E70A9A57B1A06 /* libPods-HappyNail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EBE804DC26CAE84AF3A0B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA6AC110360D959E16D088B /* Pods-HappyNail.debug.xcconfig */,
+				71F582EDED45FE375995BB6A /* Pods-HappyNail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C81273FF94725501C8A5F8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3CAEB2639773FD50CB46A /* libPods-HappyNail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8F6F6B21E856FB00BF799C = {
+			isa = PBXGroup;
+			children = (
+				AA51BDF821E9C0BB002CD8E1 /* GoogleService-Info.plist */,
+				AACEA45D21EA906500F74EFC /* data.json */,
+				AA51BDFA21E9C0CA002CD8E1 /* Podfile */,
+				AA8F6F7621E856FB00BF799C /* HappyNail */,
+				AA8F6F7521E856FB00BF799C /* Products */,
+				3EBE804DC26CAE84AF3A0B23 /* Pods */,
+				7C81273FF94725501C8A5F8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8F6F7521E856FB00BF799C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F6F7421E856FB00BF799C /* HappyNail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8F6F7621E856FB00BF799C /* HappyNail */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F6F7721E856FB00BF799C /* AppDelegate.swift */,
+				AA8F6F7921E856FB00BF799C /* ViewController.swift */,
+				AA8F6F8021E856FD00BF799C /* LaunchScreen.storyboard */,
+				AA8F6F7B21E856FB00BF799C /* Main.storyboard */,
+				AA8F6F7E21E856FD00BF799C /* Assets.xcassets */,
+				AA8F6F8B21E858D900BF799C /* Image */,
+				AA8F6F8321E856FD00BF799C /* Info.plist */,
+			);
+			path = HappyNail;
+			sourceTree = "<group>";
+		};
+		AA8F6F8B21E858D900BF799C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				AADD954721E9606300F2FD43 /* Gellie-Beans-Nails.jpg */,
+				AA8F6F9021E85AFC00BF799C /* Location2.jpg */,
+				AA8F6F8C21E859B800BF799C /* Nail2-Launch.jpg */,
+				AA8F6F9221E85B4F00BF799C /* Location3.jpeg */,
+				AA8F6F8E21E85A9800BF799C /* Location.jpg */,
+				AA8F6F9421E860A000BF799C /* NailBackground.jpg */,
+				AA8F6F8921E858D200BF799C /* Nail2.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8F6F7321E856FB00BF799C /* HappyNail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8F6F8621E856FD00BF799C /* Build configuration list for PBXNativeTarget "HappyNail" */;
+			buildPhases = (
+				1E1DBD314BE720E2002B71FA /* [CP] Check Pods Manifest.lock */,
+				AA8F6F7021E856FB00BF799C /* Sources */,
+				AA8F6F7121E856FB00BF799C /* Frameworks */,
+				AA8F6F7221E856FB00BF799C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyNail;
+			productName = HappyNail;
+			productReference = AA8F6F7421E856FB00BF799C /* HappyNail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8F6F6C21E856FB00BF799C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mr Kevin";
+				TargetAttributes = {
+					AA8F6F7321E856FB00BF799C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AA8F6F6F21E856FB00BF799C /* Build configuration list for PBXProject "HappyNail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8F6F6B21E856FB00BF799C;
+			productRefGroup = AA8F6F7521E856FB00BF799C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8F6F7321E856FB00BF799C /* HappyNail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8F6F7221E856FB00BF799C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F6F8F21E85A9800BF799C /* Location.jpg in Resources */,
+				AADD954821E9606300F2FD43 /* Gellie-Beans-Nails.jpg in Resources */,
+				AA8F6F8221E856FD00BF799C /* LaunchScreen.storyboard in Resources */,
+				AACEA45E21EA906500F74EFC /* data.json in Resources */,
+				AA8F6F9521E860A000BF799C /* NailBackground.jpg in Resources */,
+				AA8F6F7F21E856FD00BF799C /* Assets.xcassets in Resources */,
+				AA8F6F8D21E859B800BF799C /* Nail2-Launch.jpg in Resources */,
+				AA51BDFB21E9C0CA002CD8E1 /* Podfile in Resources */,
+				AA8F6F8A21E858D200BF799C /* Nail2.jpg in Resources */,
+				AA8F6F7D21E856FB00BF799C /* Main.storyboard in Resources */,
+				AA51BDF921E9C0BB002CD8E1 /* GoogleService-Info.plist in Resources */,
+				AA8F6F9321E85B4F00BF799C /* Location3.jpeg in Resources */,
+				AA8F6F9121E85AFC00BF799C /* Location2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1DBD314BE720E2002B71FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyNail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8F6F7021E856FB00BF799C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F6F7A21E856FB00BF799C /* ViewController.swift in Sources */,
+				AA8F6F7821E856FB00BF799C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8F6F7B21E856FB00BF799C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8F6F7C21E856FB00BF799C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8F6F8021E856FD00BF799C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8F6F8121E856FD00BF799C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8F6F8421E856FD00BF799C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8F6F8521E856FD00BF799C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8F6F8721E856FD00BF799C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA6AC110360D959E16D088B /* Pods-HappyNail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX5H7X76A7;
+				INFOPLIST_FILE = HappyNail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.HappyNail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8F6F8821E856FD00BF799C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F582EDED45FE375995BB6A /* Pods-HappyNail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX5H7X76A7;
+				INFOPLIST_FILE = HappyNail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.HappyNail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8F6F6F21E856FB00BF799C /* Build configuration list for PBXProject "HappyNail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8F6F8421E856FD00BF799C /* Debug */,
+				AA8F6F8521E856FD00BF799C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8F6F8621E856FD00BF799C /* Build configuration list for PBXNativeTarget "HappyNail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8F6F8721E856FD00BF799C /* Debug */,
+				AA8F6F8821E856FD00BF799C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8F6F6C21E856FB00BF799C /* Project object */;
+}
